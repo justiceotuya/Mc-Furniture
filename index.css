@@ -1,0 +1,196 @@
+body {
+    background-color: #F7F4EB;
+}
+
+.row {
+    background-color: #F7F4EB !important;
+    margin: 3.4em;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+ul {
+    margin-top: 2em;
+}
+
+ul#services li {
+    display: inline;
+    margin: 0px 1em 0 0;
+}
+
+li a {
+    color: #b7ab9b;
+}
+
+#navlogo>a {
+    color: #D56943;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+li a:hover {
+    border-bottom: 3px solid#1C1D22;
+    color: #1C1D22;
+}
+
+li a:active {
+    border-bottom: 3px solid#1C1D22;
+    color: #1C1D22;
+}
+
+#mission {
+    margin-left: 1.4em;
+    padding-top: 1.4em;
+    padding-bottom: .28em;
+    font-size: 2.4em;
+    line-height: 1.12em;
+}
+
+#mission2 {
+    margin-left: 3.34em;
+    padding-bottom: 2em;
+    color: #b7ab9b
+}
+
+#missionRight {
+    width: 33.8%;
+    margin-top: 3.08em;
+    margin-left: -0.9em;
+    padding: 2.3em 1.15em 1.54em 1.15em;
+    font-size: 1.74em;
+    line-height: 1.92em;
+    background-color: #F2DAAA;
+    color: #D2663F;
+    font-weight: bold;
+    letter-spacing: 0.19em;
+    position: relative;
+    z-index: 1;
+}
+
+#button {
+    margin: 2em -4.4em;
+    font-weight: bold;
+    border-radius: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #1C1D22;
+    color: #fff;
+}
+
+#bookBtn {
+    margin-left: 3.57em;
+    font-weight: bold;
+    border-radius: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #507E64;
+    color: #fff;
+}
+
+#chairImg {
+    background-image: url('https://cdn-images-1.medium.com/max/2000/1*1wqnj7Z6WpkV0vWJO4b94A.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#right-contact {
+    padding-left: 3.34em;
+}
+
+#contact {
+    width: 33em;
+    position: relative;
+    right: -0.8em;
+    float: right;
+    padding: 2.67em;
+    color: white;
+    background-color: #517E67;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+#contact_section {
+    position: relative;
+    top: -1.67em;
+}
+
+#circle {
+    border-radius: 20em;
+    background-color: #E6E3DA;
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    top: 0;
+    left: -20em;
+    z-index: -1;
+}
+
+#circle2 {
+    border-radius: 33.4em;
+    background-color: #E6E3DA;
+    width: 80em;
+    height: 60em;
+    position: absolute;
+    top: 3.4em;
+    left: -20.1em;
+    z-index: -1;
+}
+
+h6 {
+    color: #9AAFA3;
+}
+
+.s7 {
+    margin-top: 0.2em;
+}
+
+@media screen and (max-width:1199px) {
+    ul#services li {
+        margin-right: 0 auto;
+    }
+    #services {
+        margin-left: -60px;
+        width: 40em;
+        margin-top: 5.5em;
+    }
+    a#button {
+        width: 70%;
+        font-size: 70%;
+    }
+    #button {
+        margin: 2em -1.4em;
+    }
+    #missionRight {
+        width: 15em;
+        margin-left: 3.6em;
+    }
+    #mission {
+        width: 10.1em;
+    }
+    #mission2 {
+        width: 24em;
+    }
+    #contact {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:776px) {
+    ul#services li {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:684px) {
+    .row {
+        width: 100%;
+    }
+}
